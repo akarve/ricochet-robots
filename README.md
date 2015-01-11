@@ -4,6 +4,15 @@ javascript solver and visualization for ricochet robots
 # status
 work in progress; see notes in js/main.js on how i plan to implement search algorithms
 
+#running
+From the root directory:
+    http-server -pPORT
+or
+    python -mSimpleHTTPServer
+
+Then go to `http://localhost:PORT` in your browser.
+
+
 # file formats
 a  board configuration `foo` consists of 3 files in `./data`:
 * `foo.csv`
@@ -15,6 +24,6 @@ a  board configuration `foo` consists of 3 files in `./data`:
         * `10` wall right, no wall bottom
         * `11` wall right and wall bottom 
 * `foo.goals.json`
-    * dictionary of meta-data on goal squares (where the robots are headed)
+    * dictionaries of meta-data on goal squares (where the robots are headed)
 * `foo.robots.json`
-    * Bots by color and position
+    * dictionaries of meta-data on robot color, position
