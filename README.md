@@ -5,12 +5,12 @@ javascript solver and visualization for ricochet robots
 work in progress; see notes in js/main.js on how i plan to implement search algorithms
 
 #running
-From the root directory:
+From the root directory
     http-server -pPORT
 or
-    python -mSimpleHTTPServer
+     python -mSimpleHTTPServer
 
-Then go to `http://localhost:PORT` in your browser.
+Then visit `http://localhost:PORT` in your browser.
 
 
 # file formats
